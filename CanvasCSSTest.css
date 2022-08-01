@@ -1,0 +1,272 @@
+h4 {
+    color: #dc4076;
+    font-weight: 700;
+}
+
+table.header {
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+}
+
+table.header td:nth-child(1) {
+    text-align: center;
+    width: 67.328px;
+    height: 100%;
+    /* background-color: #16a7a2; */
+    border-width: 0;
+    background-image: url("https://www.digitalcrafts.com/img/THM-blue-250x250.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+table.header td i{
+    color: #ffffff;
+}
+
+table.header td:nth-child(2) {
+    background-color: #193d49;
+    border-width: 0;
+    padding: 0;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+table.header td:nth-child(2) > * {
+    padding-left: 16px;
+}
+
+table.banner {
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+}
+
+table.banner td:nth-child(1) {
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    background-color: #16a7a2;
+    border-width: 0;
+}
+
+table.banner td img{
+    width: 80%;
+    height: 80%;
+}
+
+table.banner td i{
+    color: #ffffff;
+}
+
+table.banner td:nth-child(2) {
+    background-color: #193d49;
+    border-width: 0;
+    padding: 0;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+table.banner td:nth-child(2) > * {
+    padding-left: 16px;
+}
+
+
+  
+  .cliTitleBarButton {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    position: relative;
+    top: 8px;
+    left: 6px;
+    background-color: #ff5f57;
+    border-color: #c55250;
+    display: inline-block;
+    color: transparent;
+  }
+  
+  .cliTitleBarYellowButton {
+    left: 11px;
+    background-color: #febc2e;
+    border-color: #86693b;
+    color: transparent;
+  }
+  
+  .cliTitleBarGreenButton {
+    left: 16px;
+    background-color: #2ac740;
+    border-color: #377540;
+    color: transparent;
+  }
+  
+  .cliTitleBar {
+    width: 100%;
+    box-sizing: border-box;
+    height: 25px;
+    background-color: #39343d;
+    margin: 0 auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top: 4px;
+  }
+
+  .cliTitleBarButtonText {
+    color: white;
+    /* text-align: left; */
+    font-size: 1em;
+    left: 21px;
+    background-color:transparent;
+    border-color:transparent;
+    width: unset;
+    height: 0px;
+    border: unset;
+  }
+  
+  .cliScreen {
+    background-color: #1e1e1e;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow-wrap:break-word;
+  }
+  
+  .cliScreen > * {
+    position: relative;
+    text-align: left;
+    font-size: 1.25em;
+    font-family: monospace;
+    line-height: normal;
+    white-space: normal;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .bannerTest {
+      border-collapse: collapse;
+      width: 100%;
+      border: none;
+      height: 64px;
+      margin:auto;
+  }
+
+  .bannerImage {
+      content: url("https://www.digitalcrafts.com/img/THM-blue-250x250.png");
+      text-align: center;
+      width: 64px;
+      height: 64px;
+      background-color: #16a7a2;
+      border-width: 0;
+      float: left;
+      color: transparent;
+  }
+
+  .bannerText {
+    background-color: #193d49;
+    border-width: 0;
+    padding: 0;
+    /* line-height: 64px; */
+  }
+
+  .bannerText h2{
+    color: #ffffff;
+    padding-left: 80px;
+    padding-top: 14px;
+    font-size: 24px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+  
+  /* span {
+    color: #fff;
+    font-weight: bold;
+  } */
+
+  table.dataTable tr th{
+    background-color: #193d49;
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+  }
+
+  table.dataTable tr td{
+    padding: 15px;
+    border: none;
+  }
+
+  table.dataTable tr:hover td{
+    background-color: #193d49;
+    color: #ffffff;
+  }
+
+  table.dataTable tr:nth-child(even){
+    background-color: #16a7a2;
+    color: #000000;
+    border: none;
+  }
+
+  table.dataTable tr:nth-child(odd){
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+  }
+
+  table.PTWebTable tr th{
+    background-color: #193d49;
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+  }
+
+  table.PTWebTable tr td{
+    padding: 15px;
+    border: none;
+  }
+
+  /* table.PTWebTable tr:hover td{
+    background-color: #193d49;
+    color: #ffffff;
+  } */
+
+  table.PTWebTable tr:nth-child(n+2):nth-child(-n+3){
+    background-color: #16a7a2;
+    color: #000000;
+    border: none;
+  }
+
+  table.PTWebTable tr:nth-child(n+4):nth-child(-n+6){
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+  }
+
+  table.PTWebTable tr:nth-child(n+7):nth-child(-n+33){
+    background-color: #16a7a2;
+    color: #000000;
+    border: none;
+  }
+
+  table.PTWebTable tr:nth-child(n+34):nth-child(-n+48){
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+  }
+
+  table.PTWebTable tr:nth-child(n+49):nth-child(-n+66){
+    background-color: #16a7a2;
+    color: #000000;
+    border: none;
+  }
+
+  table.PTWebTable tr:nth-child(n+67):nth-child(-n+79){
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+  }
+  
